@@ -70,7 +70,7 @@
 
 // export default SecondPart;
 import React from "react";
-import "./secondPart.css";
+import "./SecondPart.css";
 import ServiceCard from "./serviceCard";
 import webDevelopmentImage from "../assets/img/WEB_DEVELOPMENT.png";
 import graphicDesignImage from "../assets/img/DIGITAL_DESIGNS.jpg";
