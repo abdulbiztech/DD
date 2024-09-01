@@ -89,12 +89,12 @@ const SecondPart = () => {
         "Front-End Development, Back-End Development, Web Hosting, Web Security, SEO",
     },
     {
-      title: "GRAPHIC DESIGN",
+      title: "DIGITAL MARKETING",
       image: graphicDesignImage,
       description: "Logo Design, Branding, UI/UX Design, Illustrations",
     },
     {
-      title: "DIGITAL MARKETING",
+      title: "GRAPHIC DESIGN",
       image: photoImage,
       description:
         "SEO, Social Media Marketing, Content Creation, PPC Advertising",
@@ -112,7 +112,7 @@ const SecondPart = () => {
         "Brand Strategy, Identity Design, Brand Positioning, Brand Messaging",
     },
     {
-      title: "DIGITAL MARKETING",
+      title: "DIGITAL DESIGNS",
       image: digitalMarketingImage,
       description:
         "SEO, Content Marketing, Social Media Strategies, Email Campaigns",
