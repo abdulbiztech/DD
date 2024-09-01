@@ -1,0 +1,29 @@
+import "./App.css";
+import CustomCursor from "./components/CustomCursor";
+import FeedbackForm from "./components/FeedbackForm";
+import FirstSlide from "./components/FirstSlide";
+import Header from "./components/header";
+import ScrollAnimationComponent from "./components/ScrollAnimationComponent";
+import SecondPart from "./components/secondPart";
+import SocialMedia from "./components/SocialMedia";
+import ThankYouPage from "./components/ThankYouPage";
+
+function App() {
+  return (
+    <>
+      <FirstSlide />
+      <Header />
+      {/* <div>
+        <ScrollAnimationComponent />
+      </div> */}
+      <SecondPart />
+      <SocialMedia />
+      <FeedbackForm />
+      <div className="thank-you-wrapper">
+        <ThankYouPage />
+      </div>
+    </>
+  );
+}
+
+export default App;

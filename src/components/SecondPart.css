@@ -1,0 +1,115 @@
+/* General container setup */
+.container-fluid.second-part {
+  padding: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #0e2b44;
+  height: auto; /* Adjust height to be flexible */
+}
+
+.row.text-center.py-2 {
+  padding: 1rem; /* Adjusted padding for better spacing */
+}
+
+.title_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.second-part .whatwedo {
+  color: #fff !important;
+  margin: 0;
+  font-size: 2em; /* Adjust font size as needed */
+  text-align: center; /* Center the text */
+  padding: 20px 0;
+  line-height: 1.2; /* Adjust line height for better spacing */
+}
+
+/* Service Card Styles */
+.service-card {
+  border: 1px solid black;
+  padding: 15px;
+  background-color: #fff;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 25rem; /* Fixed height for larger screens */
+  gap: 2rem;
+}
+
+.service-card:hover {
+  background-color: #eaeaea;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* Image Styling */
+.image-card {
+  width: 100%;
+  overflow: hidden;
+}
+
+.service-image {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.service-card:hover .service-image {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Service Title Styling */
+.service-content h2 {
+  font-size: 1.6em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Service Description Styling */
+.service-content p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .container-fluid.second-part {
+    flex-direction: column; /* Stack items vertically on small screens */
+    height: auto; /* Allow height to be flexible */
+  }
+
+  .row.text-center.py-2 {
+    padding: 1rem; /* Adjust padding for better spacing */
+  }
+
+  .service-card {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 10px;
+  }
+
+  .service-content h2 {
+    font-size: 1.4em; /* Smaller title font size for mobile */
+  }
+
+  .service-content p {
+    font-size: 1em; /* Smaller description font size for mobile */
+  }
+
+  .second-part .whatwedo {
+    font-size: 1.5em; /* Smaller font size for mobile */
+  }
+}

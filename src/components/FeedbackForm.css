@@ -1,0 +1,95 @@
+/* Full-screen container with centered content */
+.feedback-container {
+  min-height: 100vh; /* Maintain full height for larger screens */
+  background-color: #0d1e2d; /* Dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered form card */
+.feedback-form {
+  max-width: 400px; /* Set max width for larger screens */
+  width: 90%; /* Use a percentage for flexibility */
+  background-color: #1c2b36; /* Slightly lighter background for the form */
+  color: #a2b91f; /* Custom text color */
+  text-align: center; /* Center text */
+}
+
+/* Heading styling */
+.feedback-form h2 {
+  font-size: 1.5rem; /* Responsive font size */
+  color: #333333;
+}
+
+/* WhatsApp button styling with animation */
+.whatsapp-button {
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem; /* Use relative units for responsiveness */
+  transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(-63deg, #03f00f, #2e7d32);
+}
+
+/* Input boxes styling */
+.feedback-input {
+  background-color: transparent;
+  border: 2px solid #a2b91f;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+.feedback-text {
+  color: #fff !important;
+}
+/* Placeholder styling */
+.feedback-input::placeholder {
+  color: #a2b91f;
+}
+
+/* Submit button styling */
+.submit-button {
+  background: linear-gradient(45deg, #4caf50, #388e3c);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem; /* Use relative units for responsiveness */
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background: linear-gradient(-63deg, #03f00f, #2e7d32);
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .feedback-form {
+    padding: 20px;
+  }
+
+  .feedback-form h2 {
+    font-size: 1.25rem; /* Smaller font size for heading */
+  }
+
+  .whatsapp-button,
+  .submit-button {
+    font-size: 0.875rem; /* Smaller font size for buttons */
+    padding: 10px; /* Reduced padding for buttons */
+  }
+
+  .feedback-input {
+    font-size: 0.875rem; /* Smaller font size for input */
+    padding: 8px; /* Reduced padding for input */
+  }
+}

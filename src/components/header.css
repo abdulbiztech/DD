@@ -1,0 +1,104 @@
+/* Container Setup */
+.welcome-header {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #0e1c29; /* Background color similar to the image */
+}
+
+/* Header Styling */
+.header {
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Heading */
+.custom-header {
+  letter-spacing: 0.1em;
+  margin: 0; /* Remove extra margin to fit design */
+  font-size: 2.5em; /* Adjust size as needed */
+  font-family: "Arial", sans-serif; /* Adjust the font as needed */
+  font-weight: bold;
+}
+
+/* Subheading */
+.custom-header2 {
+  letter-spacing: 0.1em;
+  margin: 20px 0px; /* Remove extra margin to fit design */
+  font-size: 1.8em; /* Adjust size as needed */
+  font-family: "Arial", sans-serif; /* Adjust the font as needed */
+  font-weight: bold;
+}
+
+/* Logo and Text Container */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Logo Image Styling */
+.custom-logo {
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+}
+
+/* Text Styling */
+.text-digital {
+  margin-top: 50px !important; /* Reduced top margin for mobile */
+  font-size: 1.5rem; /* Font size for larger screens */
+  font-family: "Inria Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  line-height: 1.2;
+}
+
+.text-dammish {
+  margin-bottom: 50px !important; /* Reduced bottom margin for mobile */
+  font-family: "Inria Sans", sans-serif;
+  font-size: 1.5rem; /* Font size for larger screens */
+  font-weight: bold;
+  color: white;
+  line-height: 1.2;
+}
+
+/* Global Styles */
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background-color: #0e1c29; /* Match the header background */
+  color: white;
+  font-family: Arial, sans-serif; /* Adjust the font as needed */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .custom-header {
+    font-size: 2em; /* Smaller font size for smaller screens */
+  }
+
+  .custom-header2 {
+    font-size: 1.5em; /* Smaller font size for smaller screens */
+  }
+
+  .custom-logo {
+    max-width: 200px; /* Smaller logo for smaller screens */
+  }
+
+  .text-digital {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+
+  .text-dammish {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+
+  .logo-container {
+    flex-direction: row; /* Stack logo and text vertically on smaller screens */
+  }
+}
