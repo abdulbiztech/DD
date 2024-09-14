@@ -13,9 +13,9 @@ const SocialMedia = () => {
           <div className="col-md-3">
             <img src={instagram} alt="Instagram" className="img-fluid mb-4" />
           </div>
-          <div className="col-md-3">
+          {/* <div className="col-md-3">
             <img src={facebook} alt="Facebook" className="img-fluid mb-4" />
-          </div>
+          </div> */}
           <div className="col-md-3">
             <img src={gmail} alt="Email" className="img-fluid mb-4" />
           </div>
